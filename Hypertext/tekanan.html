@@ -1,0 +1,54 @@
+<html> 
+<head>
+<title> Simple Calculation </title>
+<link href="stylesheets/style.css" rel="stylesheet"> 
+<link href="stylesheets/syle.css" rel="stylesheet"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<header>
+        <input type="checkbox" id="tag-menu"/>
+        <label class="fa fa-bars menu-bar" for="tag-menu">&nbsp; APLIKASI HITUNG FISIKA SEDERHANA</label>
+        <div class="jw-drawer">
+          <nav>
+            <ul>
+                    <li><a href="index.html"><img src ="images/newt.png" width="170" height="180"><i class=""></i>&nbsp;&nbsp;</a></li>
+              <li><a href="kinetik.html"><i class=""></i>&nbsp;&nbsp;ENERGI KINETIK</a></li>
+              <li><a href="potensial.html"><i class=""></i>&nbsp;&nbsp;ENERGI POTENSIAL</a></li>
+              <li><a href="tekanan.html"><i class=""></i>&nbsp;&nbsp;TEKANAN NON FLUIDA</a></li>
+              <li><a href="hidrostatis.html"><i class=""></i>&nbsp;&nbsp;TEKANAN HIDROSTATIS</a></li>
+              <li><a href="about.html"><i class=""></i>&nbsp;&nbsp;ABOUT</a></li>
+              
+            </ul>
+          </nav>
+        </div>
+      </header>
+</head>
+<body>
+    <script src="javascripts/Tekanan.js">
+   
+    </script>
+ 
+<div class="kotak">
+    <table align="center">
+    <form name="form1" action="#">
+        <tr>
+        <td> </td>
+        <td> Gaya(N)<input class="form_" type="text" name="f" /></td></tr>
+        <tr>
+        <td> </td>
+        <td> Luas Permukaan(m2)<input class="form_" type="text" name="a" /></td> </tr>
+        <tr>
+            
+        <td> </td>
+            <td>Tekanan Non Fluida(N/m2)<input class="form_" type="text" name="T" disabled="true"/></td></tr>
+            <tr>
+                <td></td>
+       <td><input type="button" class="tombol" value="COUNT" onClick="phys()"/></td>
+       <td><input type="button" class="tombol1" value="C" onClick="resetForm()"/></td>
+       </tr>
+    </form>
+    </table>
+</div>
+</body>
+</html>
+
+
