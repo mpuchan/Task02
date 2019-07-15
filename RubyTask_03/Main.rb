@@ -1,5 +1,5 @@
 
-load "Loopsie.rb"
+load "Loop.rb"
 load "Fruit.rb"
 /load "FruitControl.rb"/
 
